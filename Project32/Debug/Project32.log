@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\acer\source\repos\project32\project32\source.cpp(90): warning C4715: Perevod: значение возвращается не при всех путях выполнения
+  Project32.vcxproj -> C:\Users\Acer\source\repos\Project32\Debug\Project32.exe
