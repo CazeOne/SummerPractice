@@ -88,3 +88,20 @@ int Perevod(long long int n)
 		printf("%s", stri[0]);				//В противном случае выводим строку из массива
 	}
 }
+
+int main()
+{
+	long long int n;
+Start:
+	printf("Input your number: ");
+	scanf_s("%lli", &n);
+	if (n<INT_MIN || n>INT_MAX)			//Проверка на диапазон заданого пользователем числа
+	{
+		printf("You've crossed the line. Please try again!\n");
+		goto Start;
+	}
+	Perevod(n);			//Вызов функции для обработки числа
+	getchar();
+	getchar();
+	return 0;
+}
